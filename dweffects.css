@@ -1,0 +1,104 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 8
+   Case Problem 1
+   Special Effects style sheet
+   Author: Jake Aubrey
+   Date:   12/8/2016
+
+   Filename:         dweffects.css
+   Supporting Files: 
+
+*/
+
+
+body { 
+
+-o-box-shadow: 10px 0px 15px rgba(211, 211, 211, 0.5),
+	-10px 0px 15px  rgba(211, 211, 211, 0.5);
+-moz-box-shadow: 10px 0px 15px rgba(211, 211, 211, 0.5), 		-10px 0px 15px  rgba(211, 211, 211, 0.5);
+-webkit-box-shadow: 10px 0px 15px rgba(211, 211, 211, 0.5), 	-10px 0px 15px rgba(211, 211, 211, 0.5);
+box-shadow: 10px 0px 15px rgba(211, 211, 211, 0.5), 
+	-10px 0px 15px  rgba(211, 211, 211, 0.5);
+}
+
+
+
+header nav li {
+	background-color: rgb(224,238,238);
+	
+	-o-box-shadow: inset white 3px 3px 2px,inset rgb(101, 101, 101) -5px -5px -5px;
+	
+	-moz-box-shadow: inset white 3px 3px 2px,
+	inset rgb(101, 101, 101) -5px -5px 5px;
+	
+	-webkit-box-shadow: inset white 3px 3px 2px,inset rgb(101, 101, 101) -5px -5px 5px;
+	
+	box-shadow: 
+		inset 3px 3px 2px white,
+		inset rgb(101, 101, 101) -5px -5px 5px;
+	
+	
+	
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	
+}
+
+article {
+-o-box-shadow: 
+	inset 15px 15px 75px rgb(171, 171, 171), 
+	5px 5px 5px rgb(101, 101, 101);
+	
+-moz-box-shadow: inset rgb(171, 171, 171) 15px 15px 75px, rgb(101, 101, 101) 5px 5px 5px;
+	
+-webkit-box-shadow: inset rgb(171, 171, 171) 15px 15px 75px, rgb(101, 101, 101) 5px 5px 5px;
+	
+box-shadow: 
+	inset 15px 15px 75px rgb(171, 171, 171), 
+	5px 5px 5px rgb(101, 101, 101) ;
+}
+
+
+blockquote {
+	background: -o-linear-gradient(
+		left, 
+		rgb(166, 230, 230) 5%,
+		rgb(231, 231, 231),
+		rgb(255, 255, 255) 15%
+	);
+	
+	background: -moz-linear-gradient(
+		left, 
+		rgb(166, 230, 230) 5%, 
+		rgb(231, 231, 231), 
+		rgb(255, 255, 255) 15%
+	);
+	
+	background: -webkit-linear-gradient(
+		left, 
+		rgb(166, 230, 230) 5%,
+		rgb(231, 231, 231),
+		rgb(255, 255, 255) 15%
+	);
+	
+	background: -ms-linear-gradient(
+		left, 
+		rgb(166, 230, 230) 5%,
+		rgb(231, 231, 231),
+		rgb(255, 255, 255) 15%
+	);
+	background: linear-gradient(
+		left, 
+		rgb(166, 230, 230) 5%, 
+		rgb(231, 231, 231), 
+		rgb(255, 255, 255) 15%
+	);
+}
+
+
+
+
+
